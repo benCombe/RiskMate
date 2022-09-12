@@ -1,8 +1,9 @@
 import BasicIO.*;
-import GameStats.*;
+import GameStats.*; 
 
 import java.io.FileNotFoundException;
 
+//Main Class/Form to execute other tools
 public class RiskMate {
 
     Player[] players;
