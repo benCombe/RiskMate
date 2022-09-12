@@ -81,8 +81,13 @@ public class RiskMate {
         }
     }
 
-    private void addPlayer(){
-
+    
+    private void addPlayer(String name){
+        if (numPlayer < MAX_PLAYERS-1){
+            numPlayer++;
+            players[numPlayer] = new CustomPlayer(name);      
+            //TODO need to update form for new player field         
+        }
     }
 
     private void buildStartupForm(){

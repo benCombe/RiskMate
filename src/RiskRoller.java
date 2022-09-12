@@ -118,6 +118,7 @@ public class RiskRoller {
         mainForm.addTextField("numAttack", "# of Attackers", 5);
         mainForm.addTextField("numDef", "# of Defenders", 5, mainForm.getX("numAttack") + 160, mainForm.getY("numAttack"));
 
+        //Die text fields
         mainForm.addTextField("dieDis0", 2);
         mainForm.setEditable("dieDis0", false);
         for (int i = 1; i < 3; i++){
