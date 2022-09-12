@@ -1,5 +1,6 @@
 import BasicIO.*;
 
+//Tool for rolling die for large armies
 public class RiskRoller {
 
     BasicForm mainForm;
