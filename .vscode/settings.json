@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\combe\\Documents\\Brock_packages\\BasicIO.jar",
+        "c:\\Users\\combe\\Desktop\\Code Tools\\Packages\\GameStats.jar"
+    ]
+}
